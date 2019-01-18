@@ -7,11 +7,11 @@
 
 #### Arguments
 
- -a, --action &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Define the action [add,remove,exclude,clear]
+ -a, --action &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Define the action [add,remove,exclude,clear]
  
  -v, --verbose &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Output to terminal
  
- -i, --ip &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IP address (required when action = add,remove,exclude)
+ -i, --ip &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IP address (required when action = add,remove,exclude)
  
  -p, --penalty &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Penalty for IP address
  
