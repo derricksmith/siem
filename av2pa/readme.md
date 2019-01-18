@@ -31,21 +31,37 @@ Cycles the blocklist and checks IPs and Penalty times.  If penalty has been reac
 
 #### Penalties
 1 = 1 minute
+
 2 = 5 minutes
+
 3 = 10 minutes
+
 4 = 15 minutes
+
 5 = 30 minutes
+
 6 = 60 minutes (1 hour)
+
 7 = 180 minutes (3 hours)
+
 8 = 360 minutes (6 hours)
+
 9 = 720 minutes (12 hours)
+
 10 = 1440 minutes (1 day)
+
 11 = 4320 minutes (3 days)
+
 12 = 10080 minutes (7 days)
+
 13 = 20160 minutes (14 days)
+
 14 = 43200 minutes (30 days)
+
 15 = 525600 minutes (1 year)
+
 16 = indefinite
+
 
 
 ### Run at command line
