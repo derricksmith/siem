@@ -69,19 +69,19 @@ Cycles the blocklist and checks IPs and Penalty times.  If penalty has been reac
 
 
 ### Run at command line
-[Block 1.2.3.4 temporarily, penalty is incremented]
+##### Block 1.2.3.4 temporarily, penalty is incremented
 ./av2pa.py -a add -i 1.2.3.4 
 
-[Block 1.2.3.4 for 1 day]
+##### Block 1.2.3.4 for 1 day
 ./av2pa.py -a add -i 1.2.3.4 -p '10'
 
-[Block 1.2.3.4 indefinately]
+##### Block 1.2.3.4 indefinately
 ./av2pa.py -a add -i 1.2.3.4 -p '~'
 
-[Remove 1.2.3.4]
+##### Remove 1.2.3.4
 ./av2pa.py -a remove -i 1.2.3.4
 
-[Exclude 1.2.3.4]
+##### Exclude 1.2.3.4
 ./av2pa.py -a exclude -i 1.2.3.4
 
 ### Run Cron
