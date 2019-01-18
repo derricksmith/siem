@@ -7,26 +7,30 @@
 
 #### Arguments
 
- -a, --action			Define the action [add,remove,exclude,clear]
- -v, --verbose			Output to terminal
- -i, --ip				IP address (required when action = add,remove,exclude)
- -p, --penalty			Penalty for IP address
+ -a, --action &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Define the action [add,remove,exclude,clear]
+ 
+ -v, --verbose &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Output to terminal
+ 
+ -i, --ip &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IP address (required when action = add,remove,exclude)
+ 
+ -p, --penalty &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Penalty for IP address
+ 
  
 #### Actions
 
-#####add
+##### add
 Add an IP address to the block list.  If no penalty is defined the penalty is incremented each time the IP address is added until it reaches 16(indefinate).
 
-#####remove
+##### remove
 Remove an IP address from the block list.  Removes the IP from the current, history and exclude dictionaries.
 
-#####exclude
+##### exclude
 Add an IP to the exclude list.  Excluded IPs will not be processed.
 
-#####clear 
+##### clear 
 Removes all IPs from the current, history and exclude dictionaries.
 
-#####cycle
+##### cycle
 Cycles the blocklist and checks IPs and Penalty times.  If penalty has been reached, IPs are removed from the blocklist.  IPs with a penalty of 16 are not removed.  
 
 #### Penalties
