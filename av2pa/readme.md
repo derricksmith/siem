@@ -31,7 +31,7 @@ Add an IP to the exclude list.  Excluded IPs will not be processed.
 Removes all IPs from the current, history and exclude dictionaries.
 
 ##### cycle
-Cycles the blocklist and checks IPs and Penalty times.  If penalty has been reached, IPs are removed from the blocklist.  IPs with a penalty of 16 are not removed.  
+Cycles the blocklist and checks IPs and Penalty times.  If penalty has been reached, IPs are removed from the blocklist.  IPs with a penalty of 16 are not removed.  Suggest running this on a cron job to periodically cycle through the IP list.
 
 #### Penalties
 1 = 1 minute
@@ -70,6 +70,21 @@ Cycles the blocklist and checks IPs and Penalty times.  If penalty has been reac
 
 ### Run at command line
 
+./av2pa.py -a add -i 1.2.3.4
+
+### Run Cron
+
+* * * * * python path/to/your/av2pa.py
 
 
-./av2pa.py 
+## Script Settings
+
+#####blocklist 
+Set location of the blocklist (e.g '/var/www/block_inbound.txt').  This file should be https accessible if you intend to setup a Palo Alto External Dynamic List
+#####log 
+Set a log file location (e.g '/var/log/block_inbound')
+#####timezone 
+Set the local timezone(e.g 'America/Denver')
+
+
+ 
