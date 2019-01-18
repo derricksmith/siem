@@ -79,11 +79,11 @@ Cycles the blocklist and checks IPs and Penalty times.  If penalty has been reac
 
 ## Script Settings
 
-#####blocklist 
+##### blocklist 
 Set location of the blocklist (e.g '/var/www/block_inbound.txt').  This file should be https accessible if you intend to setup a Palo Alto External Dynamic List
-#####log 
+##### log 
 Set a log file location (e.g '/var/log/block_inbound')
-#####timezone 
+##### timezone 
 Set the local timezone(e.g 'America/Denver')
 
 
