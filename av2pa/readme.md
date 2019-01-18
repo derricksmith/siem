@@ -74,7 +74,7 @@ Cycles the blocklist and checks IPs and Penalty times.  If penalty has been reac
 
 ### Run Cron
 
-* * * * * python path/to/your/av2pa.py
+<span>* * * * *</span> python path/to/your/av2pa.py
 
 
 ## Script Settings
