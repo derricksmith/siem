@@ -1,7 +1,7 @@
 # AV2PA
 ### Palo Alto External Dynamic List Generator
 
-#### This script can be run at the command line to generate a list of IP addresses.  Use on a SEIM to dynamically block threats that IDS/IPS rules.  Data stored as JSON and IP list is outputted to a text file.  JSON stores information regarding current, history and exclude IPs. 
+#### This script can be run at the command line to generate a list of IP addresses.  Use on a SEIM to dynamically block threats that match IDS/IPS rules.  Data stored as JSON and IP list is outputted to a text file.  JSON stores information regarding current, history and exclude IPs.  Script logs to a syslog file and to the terminal if verbose is enabled. 
 
 ## Usage
 
