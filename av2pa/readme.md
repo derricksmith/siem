@@ -97,6 +97,7 @@ Set location of the blocklist (e.g '/var/www/block_inbound.txt').  This file sho
 Set a log file location (e.g '/var/log/block_inbound')
 ##### timezone 
 Set the local timezone(e.g 'America/Denver')
+
 Test
 
 
